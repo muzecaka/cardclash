@@ -1,0 +1,8 @@
+# Client-specific .gitignore
+node_modules/
+build/
+.env.local
+.env.development
+.env.production
+.vscode/
+*.log
