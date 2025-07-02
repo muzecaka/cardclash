@@ -1,0 +1,1 @@
+{"headers":[{"source":"/(.*)","headers":[{"key":"Content-Security-Policy","value":"connect-src 'self' ws://localhost:3001 http://localhost:3001 wss://localhost:3001 https://cardclash-server-w935.onrender.com wss://cardclash-server-w935.onrender.com"}]}]} 
