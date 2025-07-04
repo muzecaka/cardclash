@@ -76,8 +76,8 @@ const HostSetup = () => {
       toast.error("Please enter a game title.");
       return;
     }
-    if (playerCount < 2 || playerCount > 5) {
-      toast.error("Player count must be between 2 and 5.");
+    if (playerCount < 2 || playerCount > 10) {
+      toast.error("Player count must be between 2 and 10.");
       return;
     }
 
@@ -181,7 +181,7 @@ const HostSetup = () => {
                 className="w-full px-3 py-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-600"
                 disabled={isLoading}
               >
-                {[2, 3, 4, 5].map((num) => (
+                {[2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
                   <option key={num} value={num}>
                     {num}
                   </option>
